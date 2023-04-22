@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+
+.todays-weather,
+.hourly-weather,
+.days-weather {
+  margin-top: 2rem;
+  margin-left: 30%;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  background-color: #9df9ef;
+  border-radius: 2rem;
+}
+
+.todays-weather .city {
+  width: 50%;
+}
+
+.todays-weather .name {
+  font-size: 2rem;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.todays-weather .temp {
+  font-size: 5rem;
+  padding: 1rem;
+}
+
+.todays-weather .forecast-img {
+  width: 50%;
+  padding: 1rem;
+}
+
+.todays-weather .forecast-img img {
+  width: 15rem;
+}
+
+.hourly-weather .hour-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.days-weather .day-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
